@@ -168,10 +168,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int btn_group=0x7f050006;
         public static final int content_frame=0x7f05000b;
         public static final int content_view=0x7f050005;
-        public static final int frag_discount=0x7f050007;
-        public static final int frag_discovery=0x7f05000a;
-        public static final int frag_putian=0x7f050009;
-        public static final int frag_shopping=0x7f050008;
+        public static final int frag_contact=0x7f05000a;
+        public static final int frag_dail=0x7f050007;
+        public static final int frag_records=0x7f050008;
+        public static final int frag_text=0x7f050009;
         public static final int fullscreen=0x7f050003;
         public static final int left=0x7f050000;
         public static final int margin=0x7f050002;

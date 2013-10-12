@@ -14,7 +14,7 @@ import com.yunpos.putianapp.R;
 public class CenterFragment extends Fragment implements OnClickListener {
 
 	// °´Å¥
-	RadioButton mFrag_discount, mFrag_shopping, mFrag_putian, mFrag_discovery,
+	RadioButton mFrag_dail, mFrag_records, mFrag_text, mFrag_contact,
 			mFrag_favourites;
 	// Ò³Ãæ
 	Fragment mDiscount, mShoppingFragment, mPutianFragment, mDiscoveryFragmentt, mContent;
@@ -71,21 +71,19 @@ public class CenterFragment extends Fragment implements OnClickListener {
 
 	private void initLsnr(View center) {
 		// TODO Auto-generated method stub
-		mFrag_discount.setOnClickListener(this);
-		mFrag_shopping.setOnClickListener(this);
-		mFrag_putian.setOnClickListener(this);
-		mFrag_discovery.setOnClickListener(this);
+		mFrag_dail.setOnClickListener(this);
+		mFrag_records.setOnClickListener(this);
+		mFrag_text.setOnClickListener(this);
+		mFrag_contact.setOnClickListener(this);
 	}
 
 	private void initView(View center) {
 		// TODO Auto-generated method stub
-		mFrag_discount = (RadioButton)center.findViewById(R.id.frag_discount);
-		mFrag_shopping = (RadioButton)center.findViewById(R.id.frag_shopping);
-		mFrag_putian = (RadioButton) center.findViewById(R.id.frag_putian);
-		mFrag_discovery = (RadioButton) center.findViewById(R.id.frag_discovery);
-		
-		mFrag_discount.setChecked(true);
-		
+		mFrag_dail = (RadioButton)center.findViewById(R.id.frag_dail);
+		mFrag_dail.setChecked(true);
+		mFrag_records = (RadioButton)center.findViewById(R.id.frag_records);
+		mFrag_text = (RadioButton) center.findViewById(R.id.frag_text);
+		mFrag_contact = (RadioButton) center.findViewById(R.id.frag_contact);
 	}
 
 	@Override
@@ -100,16 +98,16 @@ public class CenterFragment extends Fragment implements OnClickListener {
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
 		switch (v.getId()) {
-		case R.id.frag_discount:
+		case R.id.frag_dail:
 			switchContent(mContent, mDiscount);
 			break;
-		case R.id.frag_shopping:
+		case R.id.frag_records:
 			switchContent(mContent, mShoppingFragment);
 			break;
-		case R.id.frag_putian:
+		case R.id.frag_text:
 			switchContent(mContent, mPutianFragment);
 			break;
-		case R.id.frag_discovery:
+		case R.id.frag_contact:
 			switchContent(mContent, mDiscoveryFragmentt);
 			break;
 		}

@@ -23,25 +23,25 @@
         android:orientation="horizontal" >
 
         <RadioButton
-            android:id="@+id/frag_discount"
+            android:id="@+id/frag_dail"
             style="@style/main_tab_bottom"
             android:drawableTop="@drawable/ic_launcher"
             android:text="1" />
 
         <RadioButton
-            android:id="@+id/frag_shopping"
+            android:id="@+id/frag_records"
             style="@style/main_tab_bottom"
             android:drawableTop="@drawable/ic_launcher"
             android:text="2" />
 
         <RadioButton
-            android:id="@+id/frag_putian"
+            android:id="@+id/frag_text"
             style="@style/main_tab_bottom"
             android:drawableTop="@drawable/ic_launcher"
             android:text="3" />
 
         <RadioButton
-            android:id="@+id/frag_discovery"
+            android:id="@+id/frag_contact"
             style="@style/main_tab_bottom"
             android:drawableTop="@drawable/ic_launcher"
             android:text="4" />

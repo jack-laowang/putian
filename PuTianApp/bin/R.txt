@@ -44,10 +44,10 @@ int id action_settings 0x7f05000f
 int id btn_group 0x7f050006
 int id content_frame 0x7f05000b
 int id content_view 0x7f050005
-int id frag_contact 0x7f05000a
-int id frag_dail 0x7f050007
-int id frag_records 0x7f050008
-int id frag_text 0x7f050009
+int id frag_discount 0x7f050007
+int id frag_discovery 0x7f05000a
+int id frag_putian 0x7f050009
+int id frag_shopping 0x7f050008
 int id fullscreen 0x7f050003
 int id left 0x7f050000
 int id margin 0x7f050002
